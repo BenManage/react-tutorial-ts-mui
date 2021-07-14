@@ -24,12 +24,13 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 const buttonStyle = {
-  maxWidth: '50px',
-  maxHeight: '50px',
-  minWidth: '50px',
-  minHeight: '50px',
-  border: '1px solid #999',
-  borderRadius: '1px',
+  maxWidth: '250px',
+  maxHeight: '250px',
+  minWidth: '250px',
+  minHeight: '250px',
+  border: '10px solid #999',
+  borderRadius: '21px',
+  fontSize: 100,
 } as ButtonStyleType;
 
 const calculateWinner = (squares: SquareType[]): SquareType => {
